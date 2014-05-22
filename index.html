@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DataBac</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+	</head>
+	<body>
+
+		<div id="ascensorBuilding">
+			<div class="floor floor-1"><span class="text">Floor 1</span></div>
+			<div class="floor floor-2"><span class="text">Floor 2</span></div>
+			<div class="floor floor-3"><span class="text">Floor 3</span></div>
+			<div class="floor floor-4"><span class="text">Floor 4</span></div>
+			<div class="floor floor-5"><span class="text">Floor 5</span></div>
+			<div class="floor floor-6"><span class="text">Floor 6</span></div>
+			<div class="floor floor-7"><span class="text">Floor 7</span></div>
+		</div>
+
+		<nav>
+			<ul class="direction-links">
+				<li class="direction up" data-direction="up"><a></a></li>
+				<li class="direction down" data-direction="down"><a></a></li>
+			</ul>
+		</nav>
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="js/ascensor.js"></script>
+		<script>
+			var ascensor = $('#ascensorBuilding').ascensor();
+			var ascensorInstance = $('#ascensorBuilding').data('ascensor');
+				
+			$(".direction").click(function() {
+				ascensorInstance.scrollToDirection($(this).data("direction"));
+			});	
+		</script>
+
+	</body>
+</html>
