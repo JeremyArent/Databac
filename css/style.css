@@ -47,10 +47,6 @@ body{
 	background: #CA9E67;
 }
 
-.floor-8{
-	background: #4fade3;
-}
-
 ul {
 	list-style: none;
 }
@@ -83,3 +79,80 @@ li:hover{
 	width:25px;
 	height:25px;
 }
+
+/* CSS Footer */
+
+.footer #button{
+	width:65px;
+	height:65px;
+	border-radius:35px;
+	background-color: #fff;
+	margin:0 auto;
+	margin-bottom: -40px;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:65px;
+	height:65px;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 25px;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 10em;
+	margin-bottom: -50px;
+}
+
+.footer #container{
+	margin-top:5px;
+	width:100%;
+	height:50%;
+	position:relative;
+	background: #fff;
+}
+
+.links-to-floor{
+	padding: 0; 
+	margin: 0;  
+    text-align: center;
+}
+
+.links-to-floor li{
+	display: inline;  
+    list-style: none; 
+}
+
+.links-to-floor a {  
+    display:inline-block;  
+    margin: 30px 30px;
+	color: red;
+}  

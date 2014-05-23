@@ -24,16 +24,25 @@
 				<li class="direction down" data-direction="down"><a></a></li>
 			</ul>
 		</nav>
+		
+		<div class="footer">
+			<div id="button"></div>
+			<div id="container">
+					<ul class="links-to-floor">
+						<li><a>Floor 1</a></li>
+						<li><a>Floor 2</a></li>
+						<li><a>Floor 3</a></li>
+						<li><a>Floor 4</a></li>
+						<li><a>Floor 5</a></li>
+						<li><a>Floor 6</a></li>
+						<li><a>Floor 7</a></li>
+					</ul>	
+			</div>
+		</div>
+        
 		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 		<script src="js/ascensor.js"></script>
-		<script>
-			var ascensor = $('#ascensorBuilding').ascensor();
-			var ascensorInstance = $('#ascensorBuilding').data('ascensor');
-				
-			$(".direction").click(function() {
-				ascensorInstance.scrollToDirection($(this).data("direction"));
-			});	
-		</script>
+		<script src="js/navigation.js"></script>
 
 	</body>
 </html>
