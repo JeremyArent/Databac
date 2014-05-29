@@ -181,6 +181,7 @@ li:hover{
 .france_a{ 
 	display:inline-block;  
     margin: 30px 30px;
+    margin-left: 40px;
 	color: red;
 	display: -webkit-inline-box;
 }  
@@ -188,6 +189,7 @@ li:hover{
 .page_a{ 
 	display:inline-block;  
     margin: 43px;
+    margin-left: 80px;
 	color: red;
 	display: -webkit-inline-box; 
     margin-top: 44px;
@@ -196,6 +198,7 @@ li:hover{
 .oeil_a{ 
 	display:inline-block;  
     margin: 43px;
+    margin-left: 70px;
 	color: red;
 	display: -webkit-inline-box; 
     margin-top: 56px;
