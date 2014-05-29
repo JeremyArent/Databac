@@ -2,6 +2,10 @@
 	margin: 0;padding: 0;
 }
 
+html{
+	background-image: url('../img/fond.png');
+}
+
 body{
 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
@@ -12,14 +16,27 @@ body{
 	font-weight: 500;
 	text-align: center;
 	position: absolute;
-	top: 50%;
+	top: 35%;
 	left: 50%;
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300; 
+	font-size: 22px;
 }
 
-.floor-1{
+h1{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300; 
+	font-size: 65px;
+}
+
+.text_slide1{
+	color:#a4a4a4;
+}
+
+/*.floor-1{
 	background: #F9B233;
 }
 
@@ -45,7 +62,7 @@ body{
 
 .floor-7{
 	background: #CA9E67;
-}
+}*/
 
 ul {
 	list-style: none;
@@ -128,14 +145,14 @@ li:hover{
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
-	height: 10em;
+	height: 14em;
 	margin-bottom: -50px;
 }
 
 .footer #container{
 	margin-top:5px;
 	width:100%;
-	height:50%;
+	height:70%;
 	position:relative;
 	background: #fff;
 }
@@ -146,13 +163,85 @@ li:hover{
     text-align: center;
 }
 
-.links-to-floor li{
-	display: inline;  
+.links-to-floor li:nth-child(-n+2){
+	display: -webkit-inline-box;  
     list-style: none; 
+    border-right: 2px solid grey;
+    height: 200px;
+    width:33%;
+    vertical-align: top;
 }
-
-.links-to-floor a {  
-    display:inline-block;  
+.links-to-floor li{
+	display: -webkit-inline-box;  
+    list-style: none; 
+    height: 200px;
+    width:33%;
+    vertical-align: top;
+}
+.france_a{ 
+	display:inline-block;  
     margin: 30px 30px;
 	color: red;
+	display: -webkit-inline-box;
 }  
+
+.page_a{ 
+	display:inline-block;  
+    margin: 43px;
+	color: red;
+	display: -webkit-inline-box; 
+    margin-top: 44px;
+}  
+
+.oeil_a{ 
+	display:inline-block;  
+    margin: 43px;
+	color: red;
+	display: -webkit-inline-box; 
+    margin-top: 56px;
+} 
+
+.france{
+	width:100px;
+}
+
+.page{
+	width:70px;
+}
+
+.oeil{
+	width:100px;
+}
+
+.menu_france{
+	margin-top: 12%;
+	margin-left: 6%;
+	color:#a4a4a4;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300; 
+	font-size: 22px;
+}
+
+.menu_page{
+	margin-top: 10%;
+	margin-left: 6%;
+	color:#a4a4a4;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300; 
+	font-size: 22px;
+}
+
+.menu_oeil{
+	margin-top: 5%;
+	margin-left: 6%;
+	color:#a4a4a4;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300; 
+	font-size: 22px;
+}
+
+.lorrier{
+	position: relative;
+	left:32%;
+	top: 0em;
+}
