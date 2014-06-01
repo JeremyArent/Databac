@@ -163,7 +163,7 @@ li:hover{
     text-align: center;
 }
 
-.links-to-floor li:nth-child(-n+2){
+.links-to-floor li:nth-child(-n+3){
 	display: -webkit-inline-box;  
     list-style: none; 
     border-right: 2px solid grey;
@@ -194,6 +194,10 @@ li:hover{
 	display: -webkit-inline-box; 
     margin-top: 44px;
 }  
+
+.hidden_a{
+	margin-left: -34%;
+}
 
 .oeil_a{ 
 	display:inline-block;  
