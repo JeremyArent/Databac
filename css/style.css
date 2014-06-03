@@ -9,7 +9,7 @@
 }
 
 html{
-	background-image: url('../img/fond.png');
+	background-image: url('../img/BG.png');
 }
 
 body{
@@ -203,3 +203,48 @@ li:hover{
 .highcharts-background{
 	display: none;
 }
+
+.highcharts-container{
+	margin-top: 150px;
+}
+
+.prevision-s-maths{
+	display: none;
+}
+
+.prevision-s-philo{
+	display: none;
+}
+
+.prevision-s-pc{
+	display: none;
+}
+
+.prevision-s-svt{
+	display: none;
+}
+
+.prevision-l-philo{
+	display: none;
+}
+
+.prevision-l-hg{
+	display: none;
+}
+
+.prevision-es-hg{
+	display: none;
+}
+
+.prevision-es-maths{
+	display: none;
+}
+
+.prevision-es-philo{
+	display: none;
+}
+
+.prevision-es-ses{
+	display: none;
+}
+
