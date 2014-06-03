@@ -1,3 +1,9 @@
+/**
+ ** CSS Created by Victor and Jeremy
+ **/
+
+/** GENERAL CSS **/
+ 
 *{
 	margin: 0;padding: 0;
 }
@@ -8,6 +14,16 @@ html{
 
 body{
 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+h1{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300; 
+	font-size: 65px;
 }
 
 .floor .text {
@@ -26,46 +42,8 @@ body{
 	font-size: 22px;
 }
 
-h1{
-	font-family: 'Dosis', sans-serif;
-	font-weight: 300; 
-	font-size: 65px;
-}
-
 .text_slide1{
 	color:#a4a4a4;
-}
-
-/*.floor-1{
-	background: #F9B233;
-}
-
-.floor-2{
-	background: #71B5E5;
-}
-
-.floor-3{
-	background: #B3CE4A;
-}
-
-.floor-4{
-	background: #EB5D45;
-}
-
-.floor-5{
-	background: #4AAEB6;
-}
-
-.floor-6{
-	background: #E7DFBF;
-}
-
-.floor-7{
-	background: #CA9E67;
-}*/
-
-ul {
-	list-style: none;
 }
 
 li a{
@@ -77,6 +55,8 @@ li a{
 li:hover{
 	cursor:pointer;
 }
+
+/** NAVIGATION **/ 
 
 .direction-links{
 	position: fixed;
@@ -97,62 +77,21 @@ li:hover{
 	height:25px;
 }
 
-/* CSS Footer */
-
-/*.footer #button{
-	width:65px;
-	height:65px;
-	border-radius:35px;
-	background-color: #fff;
-	margin:0 auto;
-	margin-bottom: -40px;
-	position:relative;
-	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
-.footer #button:hover{
-	width:65px;
-	height:65px;
-	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-	position:relative;
-}*/
 .footer {
-	bottom:0;
+	bottom:30px;
 	left:0;
 	position:fixed;
     width: 100%;
     height: 150px;
     overflow:hidden;
-    margin:0 auto;
-	/*-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;*/
+    margin: -30px auto;
 	z-index:999;
 }
 
-/*.footer:hover {
-	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-	height: 14em;
-	margin-bottom: -50px;
-}*/
-
 .footer #container{
-	margin-top:5px;
+	margin-top:35px;
 	width:100%;
-	height:100%;
+	height:75%;
 	position:relative;
 	background: #fff;
 }
@@ -171,6 +110,7 @@ li:hover{
     width:33%;
     vertical-align: top;
 }
+
 .links-to-floor li{
 	display: -webkit-inline-box;  
     list-style: none; 
@@ -178,9 +118,10 @@ li:hover{
     width:33%;
     vertical-align: top;
 }
+
 .france_a{ 
 	display:inline-block;  
-    margin: 30px 30px;
+    margin: 6px 30px;
     margin-left: 40px;
 	color: red;
 	display: -webkit-inline-box;
@@ -192,7 +133,7 @@ li:hover{
     margin-left: 80px;
 	color: red;
 	display: -webkit-inline-box; 
-    margin-top: 44px;
+    margin-top: 21px;
 }  
 
 .hidden_a{
@@ -205,7 +146,7 @@ li:hover{
     margin-left: 70px;
 	color: red;
 	display: -webkit-inline-box; 
-    margin-top: 56px;
+    margin-top: 32px;
 } 
 
 .france{
@@ -247,6 +188,18 @@ li:hover{
 	font-size: 22px;
 }
 
+/** HOME PAGE **/
+
 .databac{
 	margin-top: 10%;
+}
+
+/** PREVISION PAGE **/
+
+.prevision{
+	text-align: center;
+}
+
+.highcharts-background{
+	display: none;
 }
