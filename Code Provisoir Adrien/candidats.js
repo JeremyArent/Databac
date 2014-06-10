@@ -61,14 +61,20 @@ var Candidat = (function(){
 			$('.numberTotal').html(data[this.TOTAL].presents + " Candidats");
 
 			var self = this;
+
 			if (this.firstRound) {
-				$('.S').animate({width: Math.floor((data[this.SERIE_S].presents/data[this.TOTAL].presents)*100) +'%'},500, 
-					function() {
-						$('.L').animate({width: Math.floor((data[self.SERIE_L].presents/data[self.TOTAL].presents)*100) +'%'},500, 
+				$('.S').animate({width: ((data[this.SERIE_S].presents/data[this.TOTAL].presents)*100) +'%'},500, 
+					function() {						
+						$('.candS').html( Math.floor((data[self.SERIE_S].presents/data[self.TOTAL].presents)*100) + "%");
+						$('.compteurS').css('visible', 'visible').html(data[self.SERIE_S].presents);
+						$('.ES').animate({width: ((data[self.SERIE_ES].presents/data[self.TOTAL].presents)*100) +'%'},500, 
 						function() {
-							$('.ES').animate({width: Math.floor((data[self.SERIE_ES].presents/data[self.TOTAL].presents)*100) +'%'},500, 
+							$('.candES').html( Math.floor((data[self.SERIE_ES].presents/data[self.TOTAL].presents)*100) + "%");
+							$('.compteurES').css('visible', 'visible').html(data[self.SERIE_ES].presents);
+							$('.L').animate({width: ((data[self.SERIE_L].presents/data[self.TOTAL].presents)*100) +'%'},500, 
 							function() {
-							
+								$('.candL').html( Math.floor((data[self.SERIE_L].presents/data[self.TOTAL].presents)*100) + "%");
+								$('.compteurL').css('visible', 'visible').html(data[self.SERIE_L].presents);
 							});
 						});
 					});
@@ -77,13 +83,23 @@ var Candidat = (function(){
 			}
 			else
 			{
-				$('.S').animate({width: Math.floor((data[this.SERIE_S].presents/data[this.TOTAL].presents)*100) +'%'},500);
-				$('.L').animate({width: Math.floor((data[this.SERIE_L].presents/data[this.TOTAL].presents)*100) +'%'},500);
-				$('.ES').animate({width: Math.floor((data[this.SERIE_ES].presents/data[this.TOTAL].presents)*100) +'%'},500);
+				$('.S').animate({width: Math.floor((data[this.SERIE_S].presents/data[this.TOTAL].presents)*100) +'%'},500, function(){
+					$(this).width((data[self.SERIE_S].presents / data[self.TOTAL].presents *100) + '%');
+				});
+				$('.candS').html( Math.floor((data[this.SERIE_S].presents/data[this.TOTAL].presents)*100) + "%");
+				$('.compteurS').css('visible', 'visible').html(data[self.SERIE_S].presents);
+				$('.ES').animate({width: Math.floor((data[this.SERIE_ES].presents/data[this.TOTAL].presents)*100) +'%'},500, function(){
+					$(this).width((data[self.SERIE_ES].presents / data[self.TOTAL].presents *100) + '%');
+				});
+				$('.candES').html( Math.floor((data[this.SERIE_ES].presents/data[this.TOTAL].presents)*100) + "%");
+				$('.compteurES').css('visible', 'visible').html(data[self.SERIE_ES].presents);
+				$('.L').animate({width: Math.floor((data[this.SERIE_L].presents/data[this.TOTAL].presents)*100) +'%'},500, function(){
+					$(this).width((data[self.SERIE_L].presents / data[self.TOTAL].presents *100) + '%');
+				});
+				$('.candL').html( Math.floor((data[this.SERIE_L].presents/data[this.TOTAL].presents)*100) + "%");
+				$('.compteurL').css('visible', 'visible').html(data[self.SERIE_L].presents);
+
 			};
-			//$('.S').width(((data[this.SERIE_S].presents/data[this.TOTAL].presents)*100) +'%');
-			//$('.L').width(((data[this.SERIE_L].presents/data[this.TOTAL].presents)*100) +'%');
-			//$('.ES').width(((data[this.SERIE_ES].presents/data[this.TOTAL].presents)*100) +'%');
 		};
 		this.refresh = function(city, year){
 			var data = this._compileData(city, year);
