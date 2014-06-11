@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>DataBac</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
@@ -34,33 +34,44 @@
 			</div>
 			
 			<div class="floor floor-4">
-			
-				<div class="prevision-scientifique"><a href="#">S</a></div>
-					<div class="prevision-s-maths"><a href="#">Mathématiques</a></div>
-						<div id="prevision-s-maths-pie"></div>
-					<div class="prevision-s-philo"><a href="#">Philosophie</a></div>
-						<div id="prevision-s-philo-pie"></div>
-					<div class="prevision-s-pc"><a href="#">Physique Chimie</a></div>
-						<div id="prevision-s-pc-pie"></div>
-					<div class="prevision-s-svt"><a href="#">SVT</a></div>
-						<div id="prevision-s-svt-pie"></div>
-						
-				<div class="prevision-litteraire"><a href="#">L</a></div>
-					<div class="prevision-l-philo"><a href="#">Philosophie</a></div>
-						<div id="prevision-l-philo-pie"></div>
-					<div class="prevision-l-hg"><a href="#">Histoire Géographie</a></div>
-						<div id="prevision-l-hg-pie"></div>
-						
-				<div class="prevision-eco"><a href="#">ES</a></div>
-					<div class="prevision-es-hg"><a href="#">Histoire Géographie</a></div>
-						<div id="prevision-es-hg-pie"></div>
-					<div class="prevision-es-maths"><a href="#">Mathématique</a></div>
-						<div id="prevision-es-maths-pie"></div>
-					<div class="prevision-es-philo"><a href="#">Philo</a></div>
-						<div id="prevision-es-philo-pie"></div>
-					<div class="prevision-es-ses"><a href="#">Sciences Économiques et Sociales</a></div>
-						<div id="prevision-es-ses-pie"></div>
-				<div class="prevision"></div>
+				<nav id="prevision-navigation">
+				  <ul>
+					<li class="prevision-scientifique"><a href="#"><i class="icon-maths"></i><br /><br/>Série S</a>
+					<ul class="sub-menu">
+						<li class="prevision-s-maths"><a href="#">Mathématiques</a></li>
+						<li class="prevision-s-philo"><a href="#">Philoshophie</a></li>
+						<li class="prevision-s-pc"><a href="#">Physique Chimie</a></li>
+						<li class="prevision-s-svt"><a href="#">SVT</a></li>
+					  </ul>
+					</li>
+					<li class="prevision-litteraire"><a href="#"><i class="icon-litt"></i><br /><br/>Série L</a>
+					<ul class="sub-menu">
+						<li class="prevision-l-philo"><a href="#">Philosophie</a></li>
+						<li class="prevision-l-hg"><a href="#">Histoire Géo</a></li>
+					  </ul>
+					</li>
+					<li class="prevision-eco"><a href="#"><i class="icon-eco"></i><br /><br/>Série ES</a>
+					  <ul class="sub-menu">
+						<li class="prevision-es-hg"><a href="#">Histoire Géo</a></li>
+						<li class="prevision-es-maths"><a href="#">Mathématiques</a></li>
+						<li class="prevision-es-philo"><a href="#">Philosophie</a></li>
+						<li class="prevision-es-ses"><a href="#">SES</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				</nav> 
+				
+				<div id="prevision-s-maths-pie"></div>
+				<div id="prevision-s-philo-pie"></div>
+				<div id="prevision-s-pc-pie"></div>
+				<div id="prevision-s-svt-pie"></div>
+				<div id="prevision-l-philo-pie"></div>
+				<div id="prevision-l-hg-pie"></div>
+				<div id="prevision-es-hg-pie"></div>
+				<div id="prevision-es-maths-pie"></div>
+				<div id="prevision-es-philo-pie"></div>
+				<div id="prevision-es-ses-pie"></div>
+				
 			</div>
 			
 		</div>
