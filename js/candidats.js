@@ -60,6 +60,7 @@ var Candidat = (function(){
 		{
 			$('.numberTotal').html(data[this.TOTAL].presents + " Candidats");
 
+			
 			var self = this;
 
 			if (this.firstRound) {
