@@ -358,14 +358,14 @@ body{
 		height:115px;
 		display:inline-block;
 		float:left;
-		margin-left:60px;
+		margin-left:30px;
 		margin-top:80px;
 		
 	}
 		#SexeDiff3
 	{  margin-top:83px;
 		position:relative;
-		left:50px;
+		left:30px;
 	}
 
 
@@ -475,7 +475,7 @@ body{
 	{
 		width: 50%;
 		
-		margin-left:62px;
+		margin-left:82px;
 		
 		float:left;
 	}
@@ -490,6 +490,9 @@ body{
 		color:#656564;
 		position:absolute;
 		left:69%;
+		left: 71%;
+		top: 1%;
+		line-height: 55px;
 		
 
 		
@@ -540,7 +543,8 @@ body{
 		font-size:90px;
 		color:#c65d6b;
 		display:inline-block;
-		margin-top: 90px;
+		margin-top: 110px;
+		width:400px;
 
 	}
 	#reu{
@@ -548,24 +552,33 @@ body{
 		color:#c65d6b;
 		font-weight:400;
 		margin-left:-10px;
-		margin-right:60px;
+		margin-right:-80px;
 	}
+	#reu2 {
+font-size: 37px;
+color: #c65d6b;
+font-weight: 600;
+text-transform: uppercase;
+margin-right: 60px;
+	
+	}
+
 	#reussite_s{
 		color:#f0954f;
-		font-size:37px;
+		font-size:30px;
 		display:inline-block;
 		clear:both;
-		margin-right:32px;
+		margin-right:30px;
 	}
 	#reussite_es{
 	color:#5e7a7d;
-	font-size:37px;
+	font-size:30px;
 	display:inline-block;
-	margin-right:32px;
+	margin-right:30px;
 	}
 	#reussite_l{
 	color:#cbb747;
-	font-size:37px;
+	font-size:30px;
 	display:inline-block;
 
 	}

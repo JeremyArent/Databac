@@ -53,7 +53,7 @@
 					function(data){
 						$({c:0}).delay(500).animate({c: Math.round(data.TOTAL.value * 100) }, { 
 							step: function(now) {
-								$("#counter").html(Math.round(now)+" <sup id='reu'>% de réeussite</sup>");
+								$("#counter").html(Math.round(now)+" <sup id='reu'>% de</sup> <sub id='reu2'>réussite</sub>");
 								
 							},
 							duration: 3000,
