@@ -5,54 +5,16 @@
 $(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['Mathematiques'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['Les Suites', 'Derivation', 'Fonctions Logarithme Neperien', 'Conditionnement et Independance', 'Loi Binomiale'],
+                        data: [20, 20, 20, 20, 20],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -79,19 +41,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-s-maths-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC S Maths : Sujets probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC S : Sujets probables de <b>Mathematiques</b>'
             },
             plotOptions: {
                 pie: {
@@ -99,11 +57,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -114,14 +69,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
@@ -135,54 +90,16 @@ $(function () {
 $(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['Philosophie'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['La Verite', 'Le Bonheur', 'Le Desir', 'L\'Art'],
+                        data: [25, 25, 25, 25],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -209,19 +126,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-s-philo-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC S Philosophie : Sujets probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC S : Sujets probables de <b>Philosophie</b>'
             },
             plotOptions: {
                 pie: {
@@ -229,11 +142,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -244,14 +154,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
@@ -262,57 +172,19 @@ $(function () {
  ** Graphique Prévision BAC S Physique Chimie
  **/
  
- $(function () {
+$(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['Physique Chimie'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['Structure et Transformation de la Matiere', 'Synthetiser les Molecules et Fabriquer de Nouveaux Materiaux', 'Caracteristiques et Proprietes des Ondes', 'Analyse spectrale'],
+                        data: [25, 25, 25, 25],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -339,19 +211,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-s-pc-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC S Physique-Chimie : Sujets Probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC S : Sujets probables de <b>Physique-Chimie</b>'
             },
             plotOptions: {
                 pie: {
@@ -359,11 +227,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -374,14 +239,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
@@ -392,57 +257,19 @@ $(function () {
  ** Graphique Prévision BAC S SVT
  **/
  
- $(function () {
+$(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['SVT'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['Genetique et Evolution', 'Le Maintien de l\'Integrite de l\'Organisme ', 'Geothermie et Proprietes Thermiques  de la Terre'],
+                        data: [33, 34, 33],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -469,19 +296,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-s-svt-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC S SVT : Sujets Probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC S : Sujets probables de <b>SVT</b>'
             },
             plotOptions: {
                 pie: {
@@ -489,11 +312,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -504,14 +324,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
@@ -522,57 +342,19 @@ $(function () {
  ** Graphique Prévision BAC L Philo
  **/
  
- $(function () {
+$(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['Philosophie'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['La Societe', 'La Verite', 'L\'Etat', 'La Liberte', 'Le Desir'],
+                        data: [20, 20, 20, 20, 20],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -599,19 +381,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-l-philo-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC L Philosophie : Sujets Probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC L : Sujets probables de <b>Philosophie</b>'
             },
             plotOptions: {
                 pie: {
@@ -619,11 +397,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -634,14 +409,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
@@ -652,57 +427,19 @@ $(function () {
  ** Graphique Prévision BAC L Histoire / Géographie
  **/
  
- $(function () {
+$(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['Histoire Geo'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['La Gouvernance Economique Mondiale depuis 1944', 'Des Cartes pour Comprendre le Monde', 'Le Continent Americain', 'L\'Asie du Sud et de l\'Est', 'Medias et Opinion Publique'],
+                        data: [20, 20, 20, 20, 20],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -729,19 +466,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-l-hg-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC L Histoire-Géographie : Sujets Probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC L : Sujets probables d\'<b>Histoire Geo</b>'
             },
             plotOptions: {
                 pie: {
@@ -749,11 +482,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -764,14 +494,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
@@ -782,57 +512,19 @@ $(function () {
  ** Graphique Prévision BAC ES Histoire Géographie
  **/
  
- $(function () {
+$(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['Histoire Geo'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['La Gouvernance Economique Mondiale depuis 1944', 'Des Cartes pour Comprendre le Monde', 'Le Continent Americain', 'L\'Asie du Sud et de l\'Est', 'Les Espaces Maritimes'],
+                        data: [20, 20, 20, 20, 20],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -859,19 +551,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-es-hg-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC ES Histoire Géographie : Sujets Probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC ES : Sujets probables d\'<b>Histoire Geo</b>'
             },
             plotOptions: {
                 pie: {
@@ -879,11 +567,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -894,14 +579,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
@@ -912,57 +597,19 @@ $(function () {
  ** Graphique Prévision BAC ES Maths
  **/
  
- $(function () {
+$(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['Mathematiques'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['Notion de Continuite sur un Intervalle', 'Derivation', 'Fonction Exponentielle', 'Integration', 'Conditionnement', 'Loi Normale', 'Intervalle de Fluctuation', ],
+                        data: [14, 14, 14, 14, 14, 14, 16],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -989,19 +636,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-es-maths-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC ES Maths : Sujets Probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC ES : Sujets probables de <b>Mathematiques</b>'
             },
             plotOptions: {
                 pie: {
@@ -1009,11 +652,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -1024,14 +664,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
@@ -1045,54 +685,16 @@ $(function () {
  $(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['Philosophie'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['La Liberte', 'Le Travail et la Technique', 'La Societe et les Echanges', 'La Justice et le Droit', 'La Demonstration', 'L\'Histoire'],
+                        data: [17, 17, 17, 17, 17, 15],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -1119,19 +721,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-es-philo-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC ES Philosophie : Sujets Probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC ES : Sujets probables de <b>Philosophie</b>'
             },
             plotOptions: {
                 pie: {
@@ -1139,11 +737,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -1154,19 +749,20 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]
         });
     });
+	
 	
 /** 
  ** Graphique Prévision BAC ES SES
@@ -1175,54 +771,16 @@ $(function () {
  $(function () {
     
         var colors = Highcharts.getOptions().colors,
-            categories = ['MSIE', 'Firefox', 'Chrome', 'Safari', 'Opera'],
-            name = 'Browser brands',
+            categories = ['SES'],
+            name = 'Matiere',
             data = [{
-                    y: 55.11,
+                    y: 100,
                     color: colors[0],
                     drilldown: {
-                        name: 'MSIE versions',
-                        categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],
-                        data: [10.85, 7.35, 33.06, 2.81],
+                        name: 'Chapitres',
+                        categories: ['Mondialisation et Finance Internationale', 'Travail, Emploi, Chomage', 'Liens Sociaux'],
+                        data: [33,34,33],
                         color: colors[0]
-                    }
-                }, {
-                    y: 21.63,
-                    color: colors[1],
-                    drilldown: {
-                        name: 'Firefox versions',
-                        categories: ['Firefox 2.0', 'Firefox 3.0', 'Firefox 3.5', 'Firefox 3.6', 'Firefox 4.0'],
-                        data: [0.20, 0.83, 1.58, 13.12, 5.43],
-                        color: colors[1]
-                    }
-                }, {
-                    y: 11.94,
-                    color: colors[2],
-                    drilldown: {
-                        name: 'Chrome versions',
-                        categories: ['Chrome 5.0', 'Chrome 6.0', 'Chrome 7.0', 'Chrome 8.0', 'Chrome 9.0',
-                            'Chrome 10.0', 'Chrome 11.0', 'Chrome 12.0'],
-                        data: [0.12, 0.19, 0.12, 0.36, 0.32, 9.91, 0.50, 0.22],
-                        color: colors[2]
-                    }
-                }, {
-                    y: 7.15,
-                    color: colors[3],
-                    drilldown: {
-                        name: 'Safari versions',
-                        categories: ['Safari 5.0', 'Safari 4.0', 'Safari Win 5.0', 'Safari 4.1', 'Safari/Maxthon',
-                            'Safari 3.1', 'Safari 4.1'],
-                        data: [4.55, 1.42, 0.23, 0.21, 0.20, 0.19, 0.14],
-                        color: colors[3]
-                    }
-                }, {
-                    y: 2.14,
-                    color: colors[4],
-                    drilldown: {
-                        name: 'Opera versions',
-                        categories: ['Opera 9.x', 'Opera 10.x', 'Opera 11.x'],
-                        data: [ 0.12, 0.37, 1.65],
-                        color: colors[4]
                     }
                 }];
     
@@ -1249,19 +807,15 @@ $(function () {
                 });
             }
         }
-    
+		
         // Create the chart
         $('.prevision-es-ses-pie').highcharts({
+			tooltip: { enabled: false },
             chart: {
                 type: 'pie',
             },
             title: {
-                text: 'BAC ES Sciences Économiques et Sociales : Sujets Probables'
-            },
-            yAxis: {
-                title: {
-                    text: 'Total percent market share'
-                }
+                text: 'BAC ES : Sujets probables de <b>SES</b>'
             },
             plotOptions: {
                 pie: {
@@ -1269,11 +823,8 @@ $(function () {
                     center: ['50%', '50%']
                 }
             },
-            tooltip: {
-        	    valueSuffix: '%'
-            },
             series: [{
-                name: 'Browsers',
+                name: 'Matiere',
                 data: browserData,
                 size: '60%',
                 dataLabels: {
@@ -1284,14 +835,14 @@ $(function () {
                     distance: -30
                 }
             }, {
-                name: 'Versions',
+                name: 'Chance',
                 data: versionsData,
                 size: '80%',
                 innerSize: '60%',
                 dataLabels: {
                     formatter: function() {
                         // display only if larger than 1
-                        return this.y > 1 ? '<b>'+ this.point.name +':</b> '+ this.y +'%'  : null;
+                        return this.y > 1 ? '<b>'+ this.point.name : null;
                     }
                 }
             }]

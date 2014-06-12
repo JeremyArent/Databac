@@ -22,7 +22,7 @@ var BAC = (function(){
 		this._fields = null;
 		this._width = 0;
 		this._height = 0;
-		this._spacing = 0.09;
+		this._spacing = 0.08;
 		this._radius = null;
 		this._data_cache = {};
 		this._drawCallback = _drawCallback;
@@ -107,6 +107,8 @@ var BAC = (function(){
 			if(this._drawCallback != null)
 				this._drawCallback(data);
 		};
+
+
 		
 
 		this._add = function(obj, data){
@@ -165,10 +167,11 @@ var BAC = (function(){
 			this._data_cache[city][year] = ret;
 
 			return ret;
+			
 		};
 		this.initialize();
-	};
-
+	};;
+	
 	// NIK LA POLICE
 	return BAC;
 })();

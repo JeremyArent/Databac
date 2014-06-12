@@ -1,15 +1,3 @@
-$(".prevision-scientifique").click(function(event, index) {
-	$( ".prevision-s-maths" ).show();
-	$( ".prevision-s-philo" ).show();
-	$( ".prevision-s-pc" ).show();
-	$( ".prevision-s-svt" ).show();
-	$( ".prevision-l-philo" ).hide();
-	$( ".prevision-l-hg" ).hide();
-	$( ".prevision-es-hg" ).hide();
-	$( ".prevision-es-maths" ).hide();
-	$( ".prevision-es-philo" ).hide();
-	$( ".prevision-es-ses" ).hide();
-});
 
 	$(".prevision-s-maths").click(function(event, index) {
 		$.getScript('js/prevision-pie.js');
@@ -81,19 +69,6 @@ $(".prevision-scientifique").click(function(event, index) {
 		$( "div#prevision-es-ses-pie" ).hide();
 	});
 
-$(".prevision-litteraire").click(function(event, index) {
-	$( ".prevision-l-philo" ).show();
-	$( ".prevision-l-hg" ).show();
-	$( ".prevision-s-maths" ).hide();
-	$( ".prevision-s-philo" ).hide();
-	$( ".prevision-s-pc" ).hide();
-	$( ".prevision-s-svt" ).hide();
-	$( ".prevision-es-hg" ).hide();
-	$( ".prevision-es-maths" ).hide();
-	$( ".prevision-es-philo" ).hide();
-	$( ".prevision-es-ses" ).hide();
-});
-
 	$(".prevision-l-philo").click(function(event, index) {
 		$.getScript('js/prevision-pie.js');
 		$("div#prevision-l-philo-pie").addClass("prevision-l-philo-pie");
@@ -148,19 +123,6 @@ $(".prevision-litteraire").click(function(event, index) {
 		$("div#prevision-es-philo-pie").hide();
 		$("div#prevision-es-ses-pie").hide();
 	});
-
-$(".prevision-eco").click(function(event, index) {
-	$( ".prevision-es-hg" ).show();
-	$( ".prevision-es-maths" ).show();
-	$( ".prevision-es-philo" ).show();
-	$( ".prevision-es-ses" ).show();
-	$( ".prevision-l-philo" ).hide();
-	$( ".prevision-l-hg" ).hide();
-	$( ".prevision-s-maths" ).hide();
-	$( ".prevision-s-philo" ).hide();
-	$( ".prevision-s-pc" ).hide();
-	$( ".prevision-s-svt" ).hide();
-});	
 
 	$(".prevision-es-hg").click(function(event, index) {
 		$.getScript('js/prevision-pie.js');

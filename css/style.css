@@ -205,46 +205,229 @@ li:hover{
 }
 
 .highcharts-container{
-	margin-top: 150px;
+	margin-top: 90px;
 }
 
-.prevision-s-maths{
-	display: none;
+.highcharts-title{
+	text-transform: uppercase;
+	font-family: 'Times New Roman' !important;
 }
 
-.prevision-s-philo{
-	display: none;
+#prevision-navigation {
+  margin-top: -1%;
+  text-align: center;
+  width: 100%; }
+
+#prevision-navigation ul {
+  font-size: 12px; }
+
+#prevision-navigation i {
+  font-size: 3em; }
+
+#prevision-navigation li {
+  display: inline-block;
+  height: inherit;
+  width: 15%;
+  text-transform: uppercase;
+  margin-left:	10px;}
+
+#prevision-navigation a {
+  color: #303030;
+  font-family: Century Gothic;
+  font-size: 1.5em;
+  display: block;
+  height: inherit;
+  margin: 0;
+  padding: 1.75em 1em;
+  text-decoration: none; }
+
+#prevision-navigation a:hover {
+  background-color: #303030;
+  color: white;
+  transition: background .25s ease; }
+
+#prevision-navigation li .sub-menu {
+  background-color: #303030;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  transition: opacity .75s;
+  width: 100%;
+  z-index: 10; }
+
+#prevision-navigation li:hover .sub-menu {
+  left: 0px;
+  opacity: 1; }
+
+#prevision-navigation .sub-menu i {
+  font-size: 1em; }
+
+#prevision-navigation .sub-menu a {
+  height: 3em;
+  line-height: 3em;
+  color: #fff;
+  padding: 0 2em;
+  height: inherit;
+  width: 100%; }
+
+#prevision-navigation .sub-menu a:hover {
+  background-color: #CEBFB7;
 }
 
-.prevision-s-pc{
-	display: none;
+#prevision-navigation ul li a:hover .icon-maths{
+	content: url('../img/maths.png');
+}  
+  
+.icon-maths{
+content: url('../img/maths-1.png');
+} 
+
+#prevision-navigation ul li a:hover .icon-litt{
+	content: url('../img/book.png');
+}  
+  
+.icon-litt{
+content: url('../img/book1.png');
 }
 
-.prevision-s-svt{
-	display: none;
+#prevision-navigation ul li a:hover .icon-eco{
+	content: url('../img/eco.png');
+}  
+  
+.icon-eco{
+content: url('../img/eco-1.png');
 }
 
-.prevision-l-philo{
-	display: none;
-}
 
-.prevision-l-hg{
-	display: none;
-}
+/** PAGE MAP **/
 
-.prevision-es-hg{
-	display: none;
-}
 
-.prevision-es-maths{
-	display: none;
-}
+body{
+		font-family: "Dosis";
+	}
+	.bacr {
+		width: 13.2%;
+		display:block;
+		height: 23.6%;
+		margin-top:1%;
+		display:inline-block;
+	}
+	.SexeDiff
+	{
+		width:175px;
+		height:200px;
+		display:block;
 
-.prevision-es-philo{
-	display: none;
-}
+		
+	}
+	.AllCandidats
+	{
+		width:445px;
+		overflow: hidden;
+		height:160px;
+		display:inline-block;
+		
+		
+	}
+	.numberTotal,.candidats
+	{
+		width:100%;
+		text-align: center;
+	}
+	.presentFemme
+	{
+		background-color: #C55B69;
+		height:0px;
+	}
+	.presentHomme
+	{
+		background-color: #000;
+		height:0px;
+	}
+	.presentFemme,.presentHomme
+	{
+		width:45px;
+	}
+	.reussiteFemme,.reussiteHomme
+	{
+		background-color: #CBB747;
+		width:14px;
+	}
 
-.prevision-es-ses{
-	display: none;
-}
+	.reussiteFemme,.reussiteHomme,.presentFemme,.presentHomme {
+		height: 0px;
+	}
+	.margeRFemme, .margeRHomme, .margePFemme, .margePHomme {
+		height: 100%;
+	}
+	.block-sexe {
+		height: 200px;
+		float: left;
+	}
 
+
+	.histoHomme
+	{
+		margin-left: 46px;
+		float:left;
+	}
+	.S,.ES,.L,.candidats
+	{
+		float:left;
+		height: 75px;
+	}
+	.numberTotal
+	{
+		float:left;
+		font-size: 1.2em;
+		height:22px;
+		color:#C6C2B7;
+		padding-bottom: 5px;
+		border-bottom: #C6C2B7 solid 2px;
+		margin-bottom: 10px;
+	}
+	.compteurS,.compteurES,.compteurL
+	{
+		margin-top: 10px;
+		font-size: 1.2em;
+		text-align: center;
+		color:#C6C2B7;
+		border-top: #C6C2B7 solid 2px;
+	}
+	.candS, .candES, .candL { line-height: 75px; }
+	.candS
+	{
+		background-color: #FF8830;
+	}
+	.candES
+	{
+		background-color: #394844;
+	}
+	.candL
+	{
+		background-color: #c3a92c;
+	}
+	.map 
+	{
+		width: 50%;
+		height:94%;
+		margin-left:62px;
+		
+		float:left;
+	}
+
+	#nomacademie {
+		font-size:64px;
+		font-weight:bold;
+		color:#656564;
+		margin-top:2%;
+		margin-right:2.6%;
+		margin-left:12%;
+		position:relative;
+		left:12.9%;
+		
+
+	}
+	#counter{
+		display:inline-block;
+	}
