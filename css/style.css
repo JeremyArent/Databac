@@ -345,7 +345,7 @@ body{
 		width:175px;
 		height:200px;
 		display:inline-block;
-		margin-top:-100px;
+		
 
 		
 	}
@@ -386,6 +386,7 @@ body{
 	.reussiteFemme,.reussiteHomme,.presentFemme,.presentHomme {
 		height: 0px;
 	}
+
 	.margeRFemme, .margeRHomme, .margePFemme, .margePHomme {
 		height: 1%;
 	}
@@ -394,6 +395,13 @@ body{
 		float: left;
 	}
 
+	.SexeDiff .block-sexe:nth-child(2){
+		margin-right:43px;
+	}
+	
+	.SexeDiff .block-sexe:nth-child(4){
+	
+	}
 
 	.histoHomme
 	{
@@ -462,6 +470,17 @@ body{
 		
 
 	}
+	#selectyear {
+		float:left;
+		margin-left:3.5%;
+		margin-top:1%;
+		width:140px;
+		border:none;
+		height:25px;
+		background-color:#f0954f;
+		color:white;
+		position:absolute;
+	}
 
 	.bacr p:nth-child(1) {
 		display:inline-block;
@@ -520,5 +539,21 @@ body{
 	font-size:37px;
 	display:inline-block;
 
+	}
+
+	#femal {
+		width:26px;
+		height:38px;
+		display:inline-block;
+			position:relative;
+	top:-60px;
+	}
+
+	#man{
+	width:32px;
+	height:31px;
+	position:relative;
+	top:-60px;
+	display:inline-block;
 	}
 
