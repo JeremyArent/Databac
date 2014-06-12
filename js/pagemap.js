@@ -18,8 +18,8 @@
 				 	$("#nomacademie").append($(this).data('aca'));
 				 	
 				 	
-				 	console.log($(this).data('aca'));
-				 	console.log($(this).data('pc'));
+				 	
+				 
 	            });
 
 			}
