@@ -154,7 +154,7 @@
 		// d3.json("budget.json", function(json) {
 		//   var nodes = partition.nodes({children: json});
 
-		d3.json("http://localhost/d3/d3json", function(error, root) {
+		d3.json("http://localhost/d3/databac", function(error, root) {
 
 
 			// var path = vis.selectAll("path").data(nodes);
@@ -249,6 +249,16 @@
 					return d.depth ? d.name.split(" ")[3] || "" : "";
 				});
 
+			//fourth row (if necessary)
+			textEnter
+				.append("tspan")
+				.attr("x", 0)
+				.attr("dy", ".9em")
+				.text(function(d)
+				{
+					return d.depth ? d.name.split(" ")[4] || "" : "";
+				});
+
 			//click function
 			function click(d)
 			{
@@ -325,10 +335,9 @@
 			//mouseover function which will send the values to the legend
 			function mouseover(d)
 			{	
-    			if(d.name == 'fonctions' || d.name == 'suite' || d.name == 'géométrie' || d.name == 'autre'){
+    			if(d.name == 'fonctions' || d.name == 'suite' || d.name == 'géométrie' || d.name == 'SVT' || d.name == 'Série S' || d.name == 'Série ES' || d.name == 'Série L' || d.name == '2013' || d.name == '2012' || d.name == '2011' || d.name == '2010' || d.name == '2009' || d.name == 'Physique Chimie' || d.name == 'Philosophie' || d.name == 'Histoire Géographie' || d.name == 'SES' || d.name == 'Mathématiques' || d.name == 'Center'){
     				content.append("p")
-    				.attr("id", "current")
-    				.text(d.name)// + " - 2013 appropriations: " + d.appropriation13 + " - Which was a " + d.percentChange13 + "% change of the previous year.")
+    				.attr("id", "current")// + " - 2013 appropriations: " + d.appropriation13 + " - Which was a " + d.percentChange13 + "% change of the previous year.")
 					content.append("p")
 					//.attr("id", "name")
 					.text("Passez votre souris sur un arc pour voir ses chances de tomber.")
