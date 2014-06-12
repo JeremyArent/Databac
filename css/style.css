@@ -311,22 +311,27 @@ content: url('../img/eco-1.png');
 
 /** PAGE MAP **/
 
-
+.floor {
+	overflow:hidden;
+}
 body{
 		font-family: "Dosis";
 	}
 	.bacr {
-		width: 13.2%;
+		width: 16%;
 		display:block;
-		height: 23.6%;
-		margin-top:1%;
+		height: 28%;
+		margin-top:-2%;
 		display:inline-block;
+		float:left;
+		margin-left:-20px;
 	}
 	.SexeDiff
 	{
 		width:175px;
 		height:200px;
-		display:block;
+		display:inline-block;
+		margin-top:-100px;
 
 		
 	}
@@ -334,8 +339,8 @@ body{
 	{
 		width:445px;
 		overflow: hidden;
-		height:160px;
 		display:inline-block;
+		margin-top:4%;
 		
 		
 	}
@@ -368,7 +373,7 @@ body{
 		height: 0px;
 	}
 	.margeRFemme, .margeRHomme, .margePFemme, .margePHomme {
-		height: 100%;
+		height: 1%;
 	}
 	.block-sexe {
 		height: 200px;
@@ -384,7 +389,10 @@ body{
 	.S,.ES,.L,.candidats
 	{
 		float:left;
-		height: 75px;
+		height: 39px;
+		font-size:18px;
+		color:white;
+		font-weight:400;
 	}
 	.numberTotal
 	{
@@ -404,7 +412,7 @@ body{
 		color:#C6C2B7;
 		border-top: #C6C2B7 solid 2px;
 	}
-	.candS, .candES, .candL { line-height: 75px; }
+	.candS, .candES, .candL { line-height: 40px; }
 	.candS
 	{
 		background-color: #FF8830;
@@ -420,24 +428,83 @@ body{
 	.map 
 	{
 		width: 50%;
-		height:94%;
+		height:95%;
 		margin-left:62px;
 		
 		float:left;
+	}
+	#map{
+		width: 100%;
+		height:100%;
 	}
 
 	#nomacademie {
 		font-size:64px;
 		font-weight:bold;
 		color:#656564;
-		margin-top:2%;
-		margin-right:2.6%;
-		margin-left:12%;
 		position:relative;
 		left:12.9%;
+
 		
 
 	}
-	#counter{
+
+	.bacr p:nth-child(1) {
 		display:inline-block;
+		position:relative;
+		top:95px;
+		left:68px;
+		color:#f0954f;
+		font-size:30px;
 	}
+	.bacr p:nth-child(2) {
+		display:inline-block;
+		position:relative;
+		top:115px;
+		left:73px;
+		color:#516661;
+		font-size:30px;
+	}
+
+.bacr p:nth-child(3) {
+		display:inline;
+		position:relative;
+		top:95px;
+		left:78px;
+		color:#cbb747;
+		font-size:30px;
+	}
+	#counter{
+		font-size:90px;
+		color:#c65d6b;
+		display:inline-block;
+		margin-top:1%;
+
+	}
+	#reu{
+		font-size:37px;
+		color:#c65d6b;
+		font-weight:400;
+		margin-left:-10px;
+		margin-right:60px;
+	}
+	#reussite_s{
+		color:#f0954f;
+		font-size:37px;
+		display:inline-block;
+		clear:both;
+		margin-right:32px;
+	}
+	#reussite_es{
+	color:#516661;
+	font-size:37px;
+	display:inline-block;
+	margin-right:32px;
+	}
+	#reussite_l{
+	color:#cbb747;
+	font-size:37px;
+	display:inline-block;
+
+	}
+

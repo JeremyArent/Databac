@@ -43,7 +43,7 @@
 					function(data){
 						$({c:0}).delay(500).animate({c: Math.round(data.TOTAL.value * 100) }, { 
 							step: function(now) {
-								$("#counter").html(Math.round(now));
+								$("#counter").html(Math.round(now)+" <sup id='reu'>% de réeussite</sup>");
 								
 							},
 							duration: 3000,
@@ -53,7 +53,7 @@
 						$({c:0}).delay(500).animate({c: Math.round((data.S.admis/data.S.presents)*100) }, { 
 							step: function(now) {
 								
-								$("#reussite_s").html(Math.round(now));
+								$("#reussite_s").html(Math.round(now)+" %");
 							},
 							duration: 3000,
 							easing: "easeOutQuart"        
@@ -62,7 +62,7 @@
 						$({c:0}).delay(500).animate({c: Math.round((data.ES.admis/data.ES.presents)*100) }, { 
 							step: function(now) {
 								
-								$("#reussite_es").html(Math.round(now));
+								$("#reussite_es").html(Math.round(now)+" %");
 							},
 							duration: 3000,
 							easing: "easeOutQuart"        
@@ -71,7 +71,7 @@
 						$({c:0}).delay(500).animate({c: Math.round((data.L.admis/data.L.presents)*100) }, { 
 							step: function(now) {
 								
-								$("#reussite_l").html(Math.round(now));
+								$("#reussite_l").html(Math.round(now)+" %");
 							},
 							duration: 3000,
 							easing: "easeOutQuart"        
