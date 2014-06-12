@@ -335,14 +335,14 @@ body{
 		width: 16%;
 		display:block;
 		height: 28%;
-		margin-top:-2%;
+		margin-top: 70px;
 		display:inline-block;
 		float:left;
 		margin-left:-20px;
 	}
 	.SexeDiff
 	{
-		width:400px;
+		width: 500px;
 		height:200px;
 		
 		margin-top:-20px;
@@ -357,11 +357,19 @@ body{
 		width:120px;
 		height:115px;
 		display:inline-block;
-		clear:both;
+		float:left;
 		margin-left:60px;
 		margin-top:80px;
 		
 	}
+		#SexeDiff3
+	{  margin-top:83px;
+		position:relative;
+		left:50px;
+	}
+
+
+
 	.AllCandidats
 	{
 		width:445px;
@@ -457,7 +465,7 @@ body{
 	}
 	.candES
 	{
-		background-color: #394844;
+		background-color: #5e7a7d;
 	}
 	.candL
 	{
@@ -466,7 +474,7 @@ body{
 	.map 
 	{
 		width: 50%;
-		height:95%;
+		
 		margin-left:62px;
 		
 		float:left;
@@ -480,16 +488,20 @@ body{
 		font-size:64px;
 		font-weight:bold;
 		color:#656564;
-		position:relative;
-		left:12.9%;
+		position:absolute;
+		left:69%;
+		
+
+		
+
 		
 
 		
 
 	}
 	#selectyear {
-		float:left;
-		margin-left:3.5%;
+		position: absolute;
+		left: 3.5%;
 		margin-top:1%;
 		width:140px;
 		border:none;
@@ -502,25 +514,25 @@ body{
 	.bacr p:nth-child(1) {
 		display:inline-block;
 		position:relative;
-		top:95px;
-		left:68px;
+		top:105px;
+		left:73px;
 		color:#f0954f;
 		font-size:30px;
 	}
 	.bacr p:nth-child(2) {
 		display:inline-block;
 		position:relative;
-		top:115px;
-		left:73px;
-		color:#516661;
+		top:125px;
+		left:78px;
+		color:#5e7a7d;
 		font-size:30px;
 	}
 
 .bacr p:nth-child(3) {
 		display:inline;
 		position:relative;
-		top:95px;
-		left:78px;
+		top:105px;
+		left:83px;
 		color:#cbb747;
 		font-size:30px;
 	}
@@ -528,7 +540,7 @@ body{
 		font-size:90px;
 		color:#c65d6b;
 		display:inline-block;
-		margin-top:1%;
+		margin-top: 90px;
 
 	}
 	#reu{
@@ -546,7 +558,7 @@ body{
 		margin-right:32px;
 	}
 	#reussite_es{
-	color:#516661;
+	color:#5e7a7d;
 	font-size:37px;
 	display:inline-block;
 	margin-right:32px;
@@ -564,7 +576,7 @@ body{
 		display:inline-block;
 			position:relative;
 	top:-50px;
-	left:5px;
+	left:10px;
 	}
 
 		#femal {
@@ -616,4 +628,13 @@ body{
 
 	}
 
-
+#reufemme{
+	
+	font-size:18px;
+	color:#cbb747;
+	}
+#reuHomme{
+	
+	font-size:18px;
+	color:#cbb747;
+	}

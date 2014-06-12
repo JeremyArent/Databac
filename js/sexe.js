@@ -69,7 +69,7 @@ var Sexe = (function(){
 		{
 			var self = this;
 			var tauxreussiteF=(data.femelle.success/data.total.participants)*100;
-			var tauxreussiteM=data.male.success/data.total.participants*100;
+			var tauxreussiteM=(data.male.success/data.total.participants)*100;
 			
 				$('.presentFemme').animate({ height: data.total.femelle +'%' },500);
 				
@@ -87,10 +87,19 @@ var Sexe = (function(){
 				$('.margeRHomme').animate({ height: (100-tauxreussiteM) + '%' }, 500);	
 
 			    //this.firstRound=false;
+				
+				
+				$('.presentFemme').html("<img src='img/femal.png' alt='' id='femal'>");
+
 				$('#diffwomantxt').empty();
 				$('#diffwomantxt').append(Math.round(data.total.femelle) + '%');
 				$('#diffmantxt').empty();
 				$('#diffmantxt').append(Math.round(data.total.male) + '%');
+
+				$('#reufemme').empty();
+				$('#reufemme').append(Math.round(tauxreussiteF) +'%');
+				$('#reuHomme').empty();
+				$('#reuHomme').append(Math.round(tauxreussiteM) +'%');
 
 		};
 		this.refresh = function(city, year){

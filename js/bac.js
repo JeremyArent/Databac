@@ -8,7 +8,7 @@ var BAC = (function(){
 		this._DEFAULT_YEAR = 2013;
 
 		this.COLOR_S = '#FF8830';
-		this.COLOR_ES = '#394844';
+		this.COLOR_ES = '#5e7a7d';
 		this.COLOR_L = '#c3a92c';
 		this.COLOR_TOT = '#c56b6c';
 
