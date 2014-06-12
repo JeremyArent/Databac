@@ -342,11 +342,24 @@ body{
 	}
 	.SexeDiff
 	{
-		width:175px;
+		width:400px;
 		height:200px;
-		display:inline-block;
+		
+		margin-top:-20px;
+		float:left;
 		
 
+		
+	}
+
+	#SexeDiff2
+	{
+		width:120px;
+		height:115px;
+		display:inline-block;
+		clear:both;
+		margin-left:60px;
+		margin-top:80px;
 		
 	}
 	.AllCandidats
@@ -370,7 +383,7 @@ body{
 	}
 	.presentHomme
 	{
-		background-color: #000;
+		background-color: #5e7a7d;
 		height:0px;
 	}
 	.presentFemme,.presentHomme
@@ -398,9 +411,12 @@ body{
 	.SexeDiff .block-sexe:nth-child(2){
 		margin-right:43px;
 	}
+	.SexeDiff .block-sexe:nth-child(1){
+		margin-right:5px;
+	}
 	
-	.SexeDiff .block-sexe:nth-child(4){
-	
+	.SexeDiff .block-sexe:nth-child(3){
+		margin-right:5px;
 	}
 
 	.histoHomme
@@ -466,6 +482,7 @@ body{
 		color:#656564;
 		position:relative;
 		left:12.9%;
+		
 
 		
 
@@ -546,14 +563,57 @@ body{
 		height:38px;
 		display:inline-block;
 			position:relative;
-	top:-60px;
+	top:-50px;
+	left:5px;
+	}
+
+		#femal {
+		width:26px;
+		height:38px;
+		display:inline-block;
+			position:relative;
+	top:-50px;
+	left:5px;
 	}
 
 	#man{
 	width:32px;
 	height:31px;
 	position:relative;
-	top:-60px;
+	top:-50px;
 	display:inline-block;
+	left:5px;
 	}
+
+		#man2{
+	width:35px;
+	height:35px;
+	display:inline-block;
+	margin-right:15px;
+
+	}
+	#femal2 {
+		width:24px;
+		height:42px;
+		display:inline-block;
+		margin-right:24px;
+	}
+
+	#diffmantxt{
+	
+	color:#5e7a7d;
+	font-size:37px;
+	font-weight:500;
+	display:inline-block;
+	
+	}
+
+	#diffwomantxt{
+		color:#c55b69;
+		font-size:37px;
+		font-weight:500;
+		display:inline-block;
+
+	}
+
 
