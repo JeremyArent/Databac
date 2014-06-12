@@ -162,7 +162,7 @@
 		// d3.json("budget.json", function(json) {
 		//   var nodes = partition.nodes({children: json});
 		$(document).ready(function(){
-			var datas=null;
+			var datas="serie_s";
 		$('.serie').on('change', function(event) {
 			if($('.serie option:selected').val()=="serie_s"){
 				datas = "serie_s";
@@ -173,7 +173,7 @@
 			else{
 				datas = "serie_l";
 			}
-		}
+		});
 		console.log(datas);
 		d3.json(datas, function(error, root) {
 
@@ -406,7 +406,6 @@
 
 		});
 		});
-		
 
 		function isParentOf(p, c)
 		{
