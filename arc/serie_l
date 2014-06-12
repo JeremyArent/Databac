@@ -1,0 +1,69 @@
+{
+     "name": "Série L", "fill": "#fff",
+     "children": [
+    {"name": "2013", "fill": "#fff",
+      "children": [
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "Le langage", "size": 50, "fill": "#fff"},
+          {"name": "La science", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Histoire Géographie", "fill": "#fff",
+           "children": [
+          {"name": "Gouverner la France depuis 1946", "size": 50, "fill": "#fff"},
+          {"name": "Des territoires inegalement integres a la mondialisation", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2012", "fill": "#fff",
+      "children": [
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "Le travail et la technique", "size": 50, "fill": "#fff"},
+          {"name": "La raison et le reel", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Histoire Géographie", "fill": "#fff",
+           "children": [
+          {"name": "Gouverner la France depuis 1946", "size": 50, "fill": "#fff"},
+          {"name": "La Guerre Froide", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2011", "fill": "#fff",
+      "children": [
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "Le travail et la technique", "size": 50, "fill": "#fff"},
+          {"name": "La perception", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Histoire Géographie", "fill": "#fff",
+           "children": [
+          {"name": "Gouverner la France depuis 1946", "size": 50, "fill": "#fff"},
+          {"name": "Le projet d'une Europe politique depuis le congres de la Haye", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2010", "fill": "#fff",
+      "children": [
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "La verite", "size": 50, "fill": "#fff"},
+          {"name": "L'histoire", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Histoire Géographie", "fill": "#fff",
+           "children": [
+          {"name": "La gouvernance economique mondiale depuis 1944", "size": 50, "fill": "#fff"},
+          {"name": "Les Etats Unis et le monde depuis 1918", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    }
+     ]
+  }

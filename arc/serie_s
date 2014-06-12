@@ -1,0 +1,133 @@
+
+{ "name": "Série S", "fill": "#fff",
+     "children": [
+    {"name": "2013", "fill": "#fff",
+      "children": [
+        {"name": "Mathématiques", "fill": "#fff",
+           "children": [
+          {"name": "Limites de fonctions", "size": 50, "fill": "#fff"},
+          {"name": "Derivation", "size": 50, "fill": "#fff"},
+          {"name": "Forme algebrique et geometrique", "size": 50, "fill": "#fff"},
+          {"name": "Fonction logarithme neperien", "size": 50, "fill": "#fff"},
+          {"name": "Loi binomiale", "size": 50, "fill": "#fff"},
+          {"name": "Algorithmique", "size": 50, "fill": "#fff"},
+          {"name": "Matrices et Suites", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "La conscience", "size": 50, "fill": "#fff"},
+          {"name": "Le travail", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Physique Chimie", "fill": "#fff",
+           "children": [
+          {"name": "Analyse spectrale", "size": 50, "fill": "#fff"},
+          {"name": "Temps, mouvement", "size": 50, "fill": "#fff"},
+          {"name": "Structure de la matiere", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "SVT", "fill": "#fff",
+           "children": [
+          {"name": "Génétique et évolution", "size": 50, "fill": "#fff"},
+          {"name": "Energie et cellule vivante", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2012", "fill": "#fff",
+      "children": [
+        {"name": "Mathématiques", "fill": "#fff",
+           "children": [
+          {"name": "Raisonnement par recurrence", "size": 50, "fill": "#fff"},
+          {"name": "Limites de fonctions", "size": 50, "fill": "#fff"},
+          {"name": "Fonction logarithme neperien", "size": 50, "fill": "#fff"},
+          {"name": "Conditionnement, independance", "size": 50, "fill": "#fff"},
+          {"name": "Loi binomiale", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "La societe", "size": 50, "fill": "#fff"},
+          {"name": "La verite", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Physique Chimie", "fill": "#fff",
+           "children": [
+          {"name": "Ondes et particules", "size": 50, "fill": "#fff"},
+          {"name": "Transmettre de l'information", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "SVT", "fill": "#fff",
+           "children": [
+          {"name": "Le maintien de l'organisme", "size": 50, "fill": "#fff"},
+          {"name": "Genetique et evolution", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2011", "fill": "#fff",
+      "children": [
+        {"name": "Mathématiques", "fill": "#fff",
+           "children": [
+          {"name": "Raisonnement par recurrence", "size": 50, "fill": "#fff"},
+          {"name": "Continuite sur un intervalle", "size": 50, "fill": "#fff"},
+          {"name": "Integration", "size": 50, "fill": "#fff"},
+          {"name": "Algorithmique", "size": 50, "fill": "#fff"},
+          {"name": "Matrices et Suites", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "La culture", "size": 50, "fill": "#fff"},
+          {"name": "La raison", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Physique Chimie", "fill": "#fff",
+           "children": [
+          {"name": "Structure de la matiere", "size": 50, "fill": "#fff"},
+          {"name": "Analyse spectrale", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "SVT", "fill": "#fff",
+           "children": [
+          {"name": "Le maintien de l'organisme", "size": 50, "fill": "#fff"},
+          {"name": "Le domaine continental", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2010", "fill": "#fff",
+      "children": [
+        {"name": "Mathématiques", "fill": "#fff",
+           "children": [
+          {"name": "Continuite sur un intervalle", "size": 50, "fill": "#fff"},
+          {"name": "Derivation", "size": 50, "fill": "#fff"},
+          {"name": "Fonction logarithme neperien", "size": 50, "fill": "#fff"},
+          {"name": "Integration", "size": 50, "fill": "#fff"},
+          {"name": "Matrices et Suites", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "L'art", "size": 50, "fill": "#fff"},
+          {"name": "La liberte", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Physique Chimie", "fill": "#fff",
+           "children": [
+          {"name": "Temps, mouvement", "size": 50, "fill": "#fff"},
+          {"name": "Energie, matiere", "size": 50, "fill": "#fff"},
+          {"name": "Creer et innover", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "SVT", "fill": "#fff",
+           "children": [
+          {"name": "Geothermie de la Terre", "size": 50, "fill": "#fff"},
+          {"name": "Le maintien de l'organisme", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    }
+     ]
+} 

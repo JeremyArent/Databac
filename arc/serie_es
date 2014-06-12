@@ -1,0 +1,128 @@
+{
+     "name": "Série ES", "fill": "#fff",
+     "children": [
+    {"name": "2013", "fill": "#fff",
+      "children": [
+        {"name": "Histoire Géographie", "fill": "#fff",
+           "children": [
+          {"name": "La France depuis 1946", "size": 50, "fill": "#fff"},
+          {"name": "Territoires et mondialisation", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Mathématiques", "fill": "#fff",
+           "children": [
+          {"name": "Suites", "size": 50, "fill": "#fff"},
+          {"name": "Derivation", "size": 50, "fill": "#fff"},
+          {"name": "Conditionnement", "size": 50, "fill": "#fff"},
+          {"name": "Intervalle de fluctuation", "size": 50, "fill": "#fff"},
+          {"name": "Calcul formel", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "La société et l'Etat", "size": 50, "fill": "#fff"},
+          {"name": "Theorie et experience", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "SES", "fill": "#fff",
+           "children": [
+          {"name": "Mondialisation", "size": 50, "fill": "#fff"},
+          {"name": "Conflictualité sociale", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2012", "fill": "#fff",
+      "children": [
+        {"name": "Histoire Géographie", "fill": "#fff",
+           "children": [
+          {"name": "La France depuis 1946", "size": 50, "fill": "#fff"},
+          {"name": "La Guerre Froide", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "Le travail", "size": 50, "fill": "#fff"},
+          {"name": "La liberte", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Mathématiques", "fill": "#fff",
+           "children": [
+          {"name": "Derivation", "size": 50, "fill": "#fff"},
+          {"name": "Fonctions polynomiales", "size": 50, "fill": "#fff"},
+          {"name": "Fonction exponentielle", "size": 50, "fill": "#fff"},
+          {"name": "Conditionnement", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "SES", "fill": "#fff",
+           "children": [
+          {"name": "Classe et mobilite sociales", "size": 50, "fill": "#fff"},
+          {"name": "Mondialisation", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2011", "fill": "#fff",
+      "children": [
+        {"name": "Histoire Géographie", "fill": "#fff",
+           "children": [
+          {"name": "La France depuis 1946", "size": 50, "fill": "#fff"},
+          {"name": "Le congres de la Haye", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "L'art", "size": 50, "fill": "#fff"},
+          {"name": "La liberté", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "SES", "fill": "#fff",
+           "children": [
+          {"name": "Travail, emploi, chomage", "size": 50, "fill": "#fff"},
+          {"name": "Croissance et crises", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Mathématiques", "fill": "#fff",
+           "children": [
+          {"name": "Limites de fonctions", "size": 50, "fill": "#fff"},
+          {"name": "Continuite sur un intervalle", "size": 50, "fill": "#fff"},
+          {"name": "Forme algebrique et geometrique", "size": 50, "fill": "#fff"},
+          {"name": "Algorithmique", "size": 50, "fill": "#fff"},
+          {"name": "Matrices et Suites", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    },
+    {"name": "2010", "fill": "#fff",
+      "children": [
+        {"name": "Histoire Géographie", "fill": "#fff",
+           "children": [
+          {"name": "Economie mondiale depuis 1944", "size": 50, "fill": "#fff"},
+          {"name": "Les Etats Unis depuis 1918", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#fff",
+           "children": [
+          {"name": "La vérité", "size": 50, "fill": "#fff"},
+          {"name": "Theorie et experience", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "Mathématiques", "fill": "#fff",
+           "children": [
+          {"name": "Derivation", "size": 50, "fill": "#fff"},
+          {"name": "Fonction exponentielle", "size": 50, "fill": "#fff"},
+          {"name": "Integration", "size": 50, "fill": "#fff"},
+          {"name": "Conditionnement", "size": 50, "fill": "#fff"},
+          {"name": "Algorithmique", "size": 50, "fill": "#fff"}
+          ]
+        },
+        {"name": "SES", "fill": "#fff",
+           "children": [
+          {"name": "Liens sociaux", "size": 50, "fill": "#fff"},
+          {"name": "Croissance et crises", "size": 50, "fill": "#fff"}
+          ]
+        }
+      ]
+    }
+     ]
+  }
