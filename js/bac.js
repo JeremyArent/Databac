@@ -27,6 +27,11 @@ var BAC = (function(){
 		this._data_cache = {};
 		this._drawCallback = _drawCallback;
 
+		this._setYearCity = function(city,year){
+			this._DEFAULT_YEAR=year;
+			this.refresh(city,year);
+		}
+		
 		this.initialize = function(){
 			this._width = this.$el.width();
 			this._height = this.$el.height();

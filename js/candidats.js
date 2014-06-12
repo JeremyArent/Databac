@@ -14,7 +14,10 @@ var Candidat = (function(){
 		this._DEFAULT_YEAR = 2013;
 		this._data_cache=new Array();
 
-
+		this._setYearCity = function(city,year){
+			this._DEFAULT_YEAR=year;
+			this.refresh(city,year);
+		}
 		this.initialize = function(){
 			this._width = this.$el.width();
 			this._height = this.$el.height();

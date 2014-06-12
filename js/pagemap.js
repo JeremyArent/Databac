@@ -4,11 +4,12 @@
 		var candidat=null;
 		var bac=null;
 		var academies = null;
-		
+		var city="PARIS";
 
 		function onLoaded(fromSvg){
 			if(sexe != null && map != null){
 				academies.on('click', function(d, i){
+					city=$(this).data('aca');
 					bac.refresh($(this).data('aca'), 2013)
 				 	candidat.refresh($(this).data('aca'), 2013)
 				 	sexe.refresh($(this).data('aca'), 2013)
@@ -24,6 +25,15 @@
 			}
 		}
 		$(document).ready(function(){
+			
+			$('.selectYear').on('change', function(event) {
+				console.log(city);
+				var year=$('.selectYear option:selected').val();
+				bac._setYearCity(city,year);
+				sexe._setYearCity(city,year);
+				candidat._setYearCity(city,year);
+			});
+
 			d3.xml("./map/Map.svg", function(xml) {
 	          	$('.map').append(xml.documentElement);
 	            var svg = d3.select('.map svg');
