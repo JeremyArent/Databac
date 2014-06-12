@@ -2,6 +2,7 @@
 <head>
 	<title> Oklahoma State Budget 2013 </title>
 	<meta charset="UTF-8">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<style>
 		html {
 
@@ -72,6 +73,13 @@
 		}
 	</style>
 </head>
+<div>
+	<select id="serie">
+		<option value="serie_s" checked>Série S</option>
+		<option value="serie_es">Série ES</option>
+		<option value="serie_l">Série L</option>
+	</select>
+</div>
 <div id="col2">
 
 	<p>
@@ -153,8 +161,21 @@
 
 		// d3.json("budget.json", function(json) {
 		//   var nodes = partition.nodes({children: json});
-
-		d3.json("serie_l", function(error, root) {
+		$(document).ready(function(){
+			var datas=null;
+		$('.serie').on('change', function(event) {
+			if($('.serie option:selected').val()=="serie_s"){
+				datas = "serie_s";
+			}
+			else if($('.serie option:selected').val()=="serie_es"){
+				datas = "serie_es";
+			}
+			else{
+				datas = "serie_l";
+			}
+		}
+		console.log(datas);
+		d3.json(datas, function(error, root) {
 
 
 			// var path = vis.selectAll("path").data(nodes);
@@ -384,7 +405,7 @@
   			}
 
 		});
-
+		});
 		
 
 		function isParentOf(p, c)
@@ -454,6 +475,22 @@
 		{
 			return rgb.r * .299 + rgb.g * .587 + rgb.b * .114;
 		}
+
+		// function serie(val){
+		// 	case "S":
+		// 		json = "serie_s";
+		// 		break;
+		// 	case "ES":
+		// 		json = "serie_es";
+		// 		break;
+		// 	case "L":
+		// 		json = "serie_l";
+		// 		break;
+		// 	default:
+		// 		json="serie_s";
+		// 		break;
+		// 	return json;
+		// }
 
 	</script>
 </body>
