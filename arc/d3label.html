@@ -324,22 +324,44 @@
 
 			//mouseover function which will send the values to the legend
 			function mouseover(d)
-			{
-    			content.append("p")
-    			.attr("id", "current")
-    			.text(d.name)// + " - 2013 appropriations: " + d.appropriation13 + " - Which was a " + d.percentChange13 + "% change of the previous year.")
-				content.append("p")
-				//.attr("id", "name")
-				.text("Probabilite " + format(d.size)+ "%")
-				content1.append("p")
-				.attr("id", "annotate")
-				.text(d.annotation)
-				if (d.annotation2 != null)
-				{
-				content1.append("br")
-				content1.append("p")
-				.text(d.annotation2);
-				}
+			{	
+    			if(d.name == 'fonctions' || d.name == 'suite' || d.name == 'géométrie' || d.name == 'autre'){
+    				content.append("p")
+    				.attr("id", "current")
+    				.text(d.name)// + " - 2013 appropriations: " + d.appropriation13 + " - Which was a " + d.percentChange13 + "% change of the previous year.")
+					content.append("p")
+					//.attr("id", "name")
+					.text("Passez votre souris sur un arc pour voir ses chances de tomber.")
+					console.log(d.name);
+					content1.append("p")
+					.attr("id", "annotate")
+					.text(d.annotation)
+					if (d.annotation2 != null)
+					{
+					content1.append("br")
+					content1.append("p")
+					.text(d.annotation2);
+					}
+    			}
+    			else{
+    				content.append("p")
+    				.attr("id", "current")
+    				.text(d.name)// + " - 2013 appropriations: " + d.appropriation13 + " - Which was a " + d.percentChange13 + "% change of the previous year.")
+					content.append("p")
+					//.attr("id", "name")
+					.text("Probabilite " +format(d.size)+ "%")
+					console.log(d.name);
+					content1.append("p")
+					.attr("id", "annotate")
+					.text(d.annotation)
+					if (d.annotation2 != null)
+					{
+					content1.append("br")
+					content1.append("p")
+					.text(d.annotation2);
+					}
+    			}
+    			
 
   			}
 
