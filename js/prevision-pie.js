@@ -9,7 +9,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['Les Suites', 'Derivation', 'Fonctions Logarithme Neperien', 'Conditionnement et Independance', 'Loi Binomiale'],
@@ -94,7 +94,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['La Verite', 'Le Bonheur', 'Le Desir', 'L\'Art'],
@@ -179,7 +179,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['Structure et Transformation de la Matiere', 'Synthetiser les Molecules et Fabriquer de Nouveaux Materiaux', 'Caracteristiques et Proprietes des Ondes', 'Analyse spectrale'],
@@ -264,7 +264,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['Genetique et Evolution', 'Le Maintien de l\'Integrite de l\'Organisme ', 'Geothermie et Proprietes Thermiques  de la Terre'],
@@ -349,7 +349,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['La Societe', 'La Verite', 'L\'Etat', 'La Liberte', 'Le Desir'],
@@ -434,7 +434,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['La Gouvernance Economique Mondiale depuis 1944', 'Des Cartes pour Comprendre le Monde', 'Le Continent Americain', 'L\'Asie du Sud et de l\'Est', 'Medias et Opinion Publique'],
@@ -519,7 +519,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['La Gouvernance Economique Mondiale depuis 1944', 'Des Cartes pour Comprendre le Monde', 'Le Continent Americain', 'L\'Asie du Sud et de l\'Est', 'Les Espaces Maritimes'],
@@ -604,7 +604,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['Notion de Continuite sur un Intervalle', 'Derivation', 'Fonction Exponentielle', 'Integration', 'Conditionnement', 'Loi Normale', 'Intervalle de Fluctuation', ],
@@ -689,7 +689,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['La Liberte', 'Le Travail et la Technique', 'La Societe et les Echanges', 'La Justice et le Droit', 'La Demonstration', 'L\'Histoire'],
@@ -775,7 +775,7 @@ $(function () {
             name = 'Matiere',
             data = [{
                     y: 100,
-                    color: colors[0],
+                    color: colors[4],
                     drilldown: {
                         name: 'Chapitres',
                         categories: ['Mondialisation et Finance Internationale', 'Travail, Emploi, Chomage', 'Liens Sociaux'],

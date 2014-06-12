@@ -210,7 +210,21 @@ li:hover{
 
 .highcharts-title{
 	text-transform: uppercase;
-	font-family: 'Times New Roman' !important;
+	font-family: 'Dosis' !important;
+	font-weight: 500;
+	font-size: 25px !important;
+}
+
+.highcharts-data-labels text tspan{
+	font-family: 'Dosis' !important;
+	font-size: 14px !important;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+.highcharts-data-labels text{
+	text-transform : uppercase;
+	margin-top: -10px !important;
 }
 
 #prevision-navigation {
