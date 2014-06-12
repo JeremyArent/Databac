@@ -214,6 +214,8 @@ li:hover{
 }
 
 #prevision-navigation {
+  font-family: "Dosis";
+  font-weight: 600;
   margin-top: -1%;
   text-align: center;
   width: 100%; }
@@ -232,8 +234,7 @@ li:hover{
   margin-left:	10px;}
 
 #prevision-navigation a {
-  color: #303030;
-  font-family: Century Gothic;
+  color: #656564;
   font-size: 1.5em;
   display: block;
   height: inherit;
@@ -242,12 +243,12 @@ li:hover{
   text-decoration: none; }
 
 #prevision-navigation a:hover {
-  background-color: #303030;
+  background-color: #656564;
   color: white;
   transition: background .25s ease; }
 
 #prevision-navigation li .sub-menu {
-  background-color: #303030;
+  background-color: #656564;
   position: absolute;
   left: -9999px;
   opacity: 0;
@@ -298,6 +299,15 @@ content: url('../img/book1.png');
 content: url('../img/eco-1.png');
 }
 
+.sujet-info{
+	display: -webkit-inline-box;
+	font-family: 'Dosis';
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #656564;
+	margin: 0 auto;
+}
 
 /** PAGE MAP **/
 
