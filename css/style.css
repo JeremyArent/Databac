@@ -651,3 +651,110 @@ margin-right: 60px;
 	font-size:18px;
 	color:#cbb747;
 	}
+	
+/* SUJETS */
+
+#sujet-navigation {
+  font-family: "Dosis";
+  font-weight: 600;
+    margin-top: 50px;
+  text-align: center;
+  width: 100%; }
+
+#sujet-navigation ul {
+  font-size: 12px; }
+
+#sujet-navigation i {
+  font-size: 3em; }
+
+#sujet-navigation li {
+  height: inherit;
+  width: 15%;
+  text-transform: uppercase;
+  margin-left:	60px;}
+
+#sujet-navigation a {
+  color: #656564;
+  font-size: 1.5em;
+  display: block;
+  height: inherit;
+  margin: 0;
+  padding: 1.75em 1em;
+  text-decoration: none; }
+
+#sujet-navigation a:hover {
+  background-color: #656564;
+  color: white;
+  transition: background .25s ease; }
+
+#sujet-navigation li .sub-menu {
+  background-color: #656564;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  transition: opacity .75s;
+  width: 100%;
+  z-index: 10; }
+
+#sujet-navigation li:hover .sub-menu {
+  left: 0px;
+  opacity: 1; }
+
+#sujet-navigation .sub-menu i {
+  font-size: 1em; }
+
+#sujet-navigation .sub-menu a {
+  height: 3em;
+  line-height: 3em;
+  color: #fff;
+  padding: 0 2em;
+  height: inherit;
+  width: 100%; }
+
+#sujet-navigation .sub-menu a:hover {
+  background-color: #CEBFB7;
+}
+
+#sujet-navigation ul li a:hover .icon-maths{
+	content: url('../img/maths.png');
+}  
+
+#sujet-navigation ul li a:hover .icon-litt{
+	content: url('../img/book.png');
+}  
+
+#sujet-navigation ul li a:hover .icon-eco{
+	content: url('../img/eco.png');
+}  
+
+#chart_s{
+	margin-top : -42%;
+	margin-left: 30%;
+}
+
+#chart_l{
+	margin-top : -42%;
+	margin-left: 30%;
+}
+
+#chart_es{
+	margin-top : -42%;
+	margin-left: 30%;
+}
+
+#col2 {
+			margin-top: 0px;
+			padding-top: 0px;
+			border-radius: 4px;
+			position: absolute;
+			min-height: 4.8em;
+			width: 280px;
+			top: 50px;
+			right: 0px;
+}
+
+#right{
+			position: absolute;
+			top: 30px;
+			right: 95px;
+		}

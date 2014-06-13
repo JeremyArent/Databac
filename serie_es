@@ -1,0 +1,125 @@
+{
+     "name": "Série ES", "fill": "#fff",
+     "children": [
+    {"name": "2013", "fill": "#c56b6c",
+      "children": [
+        {"name": "Histoire Géographie", "fill": "#cf7172",
+           "children": [
+          {"name": "France (1946)", "size": 50, "fill": "#e06b6c"},
+          {"name": "Mondialisation", "size": 50, "fill": "#e27071"}
+          ]
+        },
+        {"name": "Maths", "fill": "#cb7071",
+           "children": [
+          {"name": "Suites", "size": 50, "fill": "#d57273"},
+          {"name": "Dérivation", "size": 50, "fill": "#da7273"},
+          {"name": "Algo", "size": 50, "fill": "#db6667 "},
+          {"name": "Limite", "size": 50, "fill": "#dd6b6d"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#d87475",
+           "children": [
+          {"name": "La Société", "size": 50, "fill": "#e77677"},
+          {"name": "L'Expérience", "size": 50, "fill": "#e17677"}
+          ]
+        },
+        {"name": "SES", "fill": "#e07677",
+           "children": [
+          {"name": "Mondialisation", "size": 50, "fill": "#e27879"},
+          {"name": "Conflit Sociale", "size": 50, "fill": "#e87879"}
+          ]
+        }
+      ]
+    },
+    {"name": "2012", "fill": "#ff8830",
+      "children": [
+        {"name": "Histoire Géographie", "fill": "#d66e21",
+           "children": [
+          {"name": "France (1946)", "size": 50, "fill": "#d96e1f"},
+          {"name": "Guerre Froide", "size": 50, "fill": "#da7122"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#de7222",
+           "children": [
+          {"name": "Le Travail", "size": 50, "fill": "#e37523"},
+          {"name": "La Liberté", "size": 50, "fill": "#e67723"}
+          ]
+        },
+        {"name": "Maths", "fill": "#ce6b21",
+           "children": [
+          {"name": "Dérivation", "size": 50, "fill": "#cc6c25"},
+          {"name": "Fonctions Polynomiales", "size": 50, "fill": "#ce6b23"},
+          {"name": "Fonction Exponentielle", "size": 50, "fill": "#d56e23"},
+          {"name": "Limites", "size": 50, "fill": "#d56c20"}
+          ]
+        },
+        {"name": "SES", "fill": "#f4822e",
+           "children": [
+          {"name": "Mobilité Sociales", "size": 50, "fill": "#eb7924"},
+          {"name": "Mondialisation", "size": 50, "fill": "#f47e25"}
+          ]
+        }
+      ]
+    },
+    {"name": "2011", "fill": "#5e7a7d",
+      "children": [
+        {"name": "Histoire Géographie", "fill": "#76999d",
+           "children": [
+          {"name": "France (1946)", "size": 50, "fill": "#86b2b6"},
+          {"name": "Guerre Froide", "size": 50, "fill": "#89b6ba"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#7fa7ab",
+           "children": [
+          {"name": "L'Art", "size": 50, "fill": "#90c0c5"},
+          {"name": "La Liberté", "size": 50, "fill": "#93c6cb"}
+          ]
+        },
+        {"name": "SES", "fill": "#87b4b9",
+           "children": [
+          {"name": "Travail", "size": 50, "fill": "#96cdd2"},
+          {"name": "Croissance", "size": 50, "fill": "#97d3d9"}
+          ]
+        },
+        {"name": "Maths", "fill": "#68888b",
+           "children": [
+          {"name": "Limites", "size": 50, "fill": "#6e9093"},
+          {"name": "Dérivation", "size": 50, "fill": "#749a9d"},
+          {"name": "Algo", "size": 50, "fill": "#7da4a8"},
+          {"name": "Les Suites", "size": 50, "fill": "#7fa8ac"}
+          ]
+        }
+      ]
+    },
+    {"name": "2010", "fill": "#c3a92c",
+      "children": [
+        {"name": "Histoire Géographie", "fill": "#e0b004",
+           "children": [
+          {"name": "Économie Mondiale", "size": 50, "fill": "#eab805"},
+          {"name": "États-Unis", "size": 50, "fill": "#eebb06"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#e3b614",
+           "children": [
+          {"name": "La Vérité", "size": 50, "fill": "#f1bd05"},
+          {"name": "L'Expérience", "size": 50, "fill": "#f5c105"}
+          ]
+        },
+        {"name": "Maths", "fill": "#c79e04",
+           "children": [
+          {"name": "Dérivation", "size": 50, "fill": "#cea301"},
+          {"name": "Fonction Exponentielle", "size": 50, "fill": "#d4a802"},
+          {"name": "Intégration", "size": 50, "fill": "#dbad03"},
+          {"name": "Algo", "size": 50, "fill": "#e1b203"}
+          ]
+        },
+        {"name": "SES", "fill": "#f6ba0a",
+           "children": [
+          {"name": "Liens Sociaux", "size": 50, "fill": "#f8c306"},
+          {"name": "Croissance", "size": 50, "fill": "#fbc505"}
+          ]
+        }
+      ]
+    }
+     ]
+  }

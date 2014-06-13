@@ -1,0 +1,125 @@
+
+{ "name": "Série S", "fill": "#fff",
+     "children": [
+    {"name": "2013", "fill": "#c56b6c",
+      "children": [
+        {"name": "Maths", "fill": "#cb7071",
+           "children": [
+          {"name": "Les Limites", "size": 50, "fill": "#d57273"},
+          {"name": "Derivation", "size": 50, "fill": "#da7273"},
+          {"name": "Loi Binomiale", "size": 50, "fill": "#db6667"},
+          {"name": "Suites", "size": 50, "fill": "#dd6b6d"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#cf7172",
+           "children": [
+          {"name": "La Conscience", "size": 50, "fill": "#e06b6c"},
+          {"name": "Le Travail", "size": 50, "fill": "#e27071"}
+          ]
+        },
+        {"name": "Physique Chimie", "fill": "#d87475",
+           "children": [
+          {"name": "Analyse Spectrale", "size": 50, "fill": "#e77677"},
+          {"name": "Temps, Mouvement", "size": 50, "fill": "#e17677"}
+          ]
+        },
+        {"name": "SVT", "fill": "#e07677",
+           "children": [
+          {"name": "Génétique", "size": 50, "fill": "#e27879"},
+          {"name": "Cellule Vivante", "size": 50, "fill": "#e87879"}
+          ]
+        }
+      ]
+    },
+    {"name": "2012", "fill": "#ff8830",
+      "children": [
+        {"name": "Maths", "fill": "#ce6b21",
+           "children": [
+          {"name": "Algo", "size": 50, "fill": "#cc6c25"},
+          {"name": "Les Limites", "size": 50, "fill": "#ce6b23"},
+          {"name": "Logarithme Népérien", "size": 50, "fill": "#d56e23"},
+          {"name": "Loi Binomiale", "size": 50, "fill": "#d56c20"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#d66e21",
+           "children": [
+          {"name": "La Société", "size": 50, "fill": "#d96e1f"},
+          {"name": "La Vérité", "size": 50, "fill": "#da7122"}
+          ]
+        },
+        {"name": "Physique Chimie", "fill": "#de7222",
+           "children": [
+          {"name": "Les Ondes", "size": 50, "fill": "#e37523"},
+          {"name": "L'Information", "size": 50, "fill": "#e67723"}
+          ]
+        },
+        {"name": "SVT", "fill": "#f4822e",
+           "children": [
+          {"name": "L'Organisme", "size": 50, "fill": "#eb7924"},
+          {"name": "Génétique", "size": 50, "fill": "#f47e25"}
+          ]
+        }
+      ]
+    },
+    {"name": "2011", "fill": "#5e7a7d",
+      "children": [
+        {"name": "Maths", "fill": "#68888b",
+           "children": [
+          {"name": "Suites", "size": 50, "fill": "#6e9093"},
+		  {"name": "Dérivation", "size": 50, "fill": "#749a9d"},
+          {"name": "Intégration", "size": 50, "fill": "#7da4a8"},
+          {"name": "Algo", "size": 50, "fill": "#7fa8ac"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#76999d",
+           "children": [
+          {"name": "La Culture", "size": 50, "fill": "#86b2b6"},
+          {"name": "La Raison", "size": 50, "fill": "#89b6ba"}
+          ]
+        },
+        {"name": "Physique Chimie", "fill": "#7fa7ab",
+           "children": [
+          {"name": "La Matière", "size": 50, "fill": "#90c0c5"},
+          {"name": "Analyse Spectrale", "size": 50, "fill": "#93c6cb"}
+          ]
+        },
+        {"name": "SVT", "fill": "#87b4b9",
+           "children": [
+          {"name": "L'Organisme", "size": 50, "fill": "#96cdd2"},
+          {"name": "Génétique", "size": 50, "fill": "#97d3d9"}
+          ]
+        }
+      ]
+    },
+    {"name": "2010", "fill": "#c3a92c",
+      "children": [
+        {"name": "Maths", "fill": "#c79e04",
+           "children": [
+          {"name": "Continuité", "size": 50, "fill": "#cea301"},
+          {"name": "Dérivation", "size": 50, "fill": "#d4a802"},
+          {"name": "Intégration", "size": 50, "fill": "#dbad03"},
+          {"name": "Suites", "size": 50, "fill": "#e1b203"}
+          ]
+        },
+        {"name": "Philosophie", "fill": "#e0b004",
+           "children": [
+          {"name": "L'Art", "size": 50, "fill": "#eab805"},
+          {"name": "La Liberté", "size": 50, "fill": "#eebb06"}
+          ]
+        },
+        {"name": "Physique Chimie", "fill": "#e3b614",
+           "children": [
+          {"name": "Temps, Mouvement", "size": 50, "fill": "#f1bd05"},
+          {"name": "La Matière", "size": 50, "fill": "#f5c105"}
+          ]
+        },
+        {"name": "SVT", "fill": "#f6ba0a",
+           "children": [
+          {"name": "La Terre", "size": 50, "fill": "#f8c306"},
+          {"name": "L'Organisme", "size": 50, "fill": "#fbc505"}
+          ]
+        }
+      ]
+    }
+     ]
+} 

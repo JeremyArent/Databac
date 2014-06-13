@@ -1,0 +1,69 @@
+{
+     "name": "Série L", "fill": "#fff",
+     "children": [
+    {"name": "2013", "fill": "#c56b6c",
+      "children": [
+        {"name": "Philosophie", "fill": "#cb7071",
+           "children": [
+          {"name": "Le Langage", "size": 50, "fill": "#d57273"},
+          {"name": "La Science", "size": 50, "fill": "#da7273"}
+          ]
+        },
+        {"name": "Histoire Géographie", "fill": "#cf7172",
+           "children": [
+          {"name": "La France depuis 1946", "size": 50, "fill": "#dd6b6d"},
+          {"name": "Territoires et Mondialisation", "size": 50, "fill": "#e06b6c"}
+          ]
+        }
+      ]
+    },
+    {"name": "2012", "fill": "#ff8830",
+      "children": [
+        {"name": "Philosophie", "fill": "#de7222",
+           "children": [
+          {"name": "Le Travail", "size": 50, "fill": "#e37523"},
+          {"name": "La Raison", "size": 50, "fill": "#e67723"}
+          ]
+        },
+        {"name": "Histoire Géographie", "fill": "#f4822e",
+           "children": [
+          {"name": "La France (1946)", "size": 50, "fill": "#eb7924"},
+          {"name": "Guerre Froide", "size": 50, "fill": "#f47e25"}
+          ]
+        }
+      ]
+    },
+    {"name": "2011", "fill": "#5e7a7d",
+      "children": [
+        {"name": "Philosophie", "fill": "#68888b",
+           "children": [
+          {"name": "Le Travail", "size": 50, "fill": "#6e9093"},
+          {"name": "La Perception", "size": 50, "fill": "#7da4a8"}
+          ]
+        },
+        {"name": "Histoire Géographie", "fill": "#76999d",
+           "children": [
+          {"name": "La France (1946)", "size": 50, "fill": "#86b2b6"},
+          {"name": "Europe Politique", "size": 50, "fill": "#89b6ba"}
+          ]
+        }
+      ]
+    },
+    {"name": "2010", "fill": "#c3a92c",
+      "children": [
+        {"name": "Philosophie", "fill": "#e0b004",
+           "children": [
+          {"name": "La Vérité", "size": 50, "fill": "#eab805"},
+          {"name": "L'Histoire", "size": 50, "fill": "#f2c110"}
+          ]
+        },
+        {"name": "Histoire Géographie", "fill": "#f6ba0a",
+           "children": [
+          {"name": "Économique Mondiale", "size": 50, "fill": "#f2b709"},
+          {"name": "États-Unis", "size": 50, "fill": "#f5b700"}
+          ]
+        }
+      ]
+    }
+     ]
+  }
