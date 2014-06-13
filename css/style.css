@@ -439,6 +439,7 @@ body{
 		font-size:18px;
 		color:white;
 		font-weight:400;
+		overflow:hidden;
 	}
 	.numberTotal
 	{
@@ -491,7 +492,7 @@ body{
 		position:absolute;
 		left:69%;
 		left: 71%;
-		top: 1%;
+		top: 2%;
 		line-height: 55px;
 		
 
